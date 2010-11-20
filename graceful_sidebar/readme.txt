@@ -1,0 +1,57 @@
+== Graceful Sidebar Plugin ===
+Contributors: Michael Lynn, Grace Grillo
+Author URI: http://www.mlynn.org
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KKFYUAMPCQHXQTags: sidebar, custom sidebar, graceful sidebar plugin
+Requires at least: 3.0 
+Tested up to: 3.0.1 
+Stable tag: 3.1
+
+== Description ==
+
+This plugin enables you to customize your blog's sidebar using custom fields.  
+
+== Installation ==
+
+1. Upload all the files into your wp-content/plugins directory, be sure to put them into a folder called "graceful_sidebar" - name is important.
+1. Activate the plugin at the plugin administration page
+1. Create a custom field in a post called "graceful_title" and "graceful_content"
+1. Drag the "Graceful Sidebar" Widget to one of the sidebars in your theme.
+
+Please see the [graceful_sidebar plugin home page](http://mlynn.org/graceful-sidebar-plugin/) for details
+
+== Frequently Asked Questions ==
+
+= Why does the plugin only display a blank title? =
+Most likely because you have another plugin in your sidebar that is changing the focus of the current post.  By the time wordpress gets to the task of displaying Graceful Sidebar's content it doesn't know what the current post or page is.== Upgrade Notice ==
+
+== Screenshots ==
+
+1. Shows the plugin activated.
+2. Shows addition of the custom fields that will be displayed in the sidebar.
+3. Shows the widget dragged to the sidebar.
+4. Shows the plugin activated and the resultant hello world post page.
+5. Shows the plugin working on the About page.
+
+== Change Log ==
+
+= Version 1.0.2 =
+* Fixed bug enabling plugin to work on pages as well as posts
+
+= Version 1.0.1 =
+* Formatting and documentation for functions
+* Screenshots 
+* readme enhancements
+
+= Version 1.0.0 =
+* Initial Release
+
+== Upgrade Notice ==
+
+= 1.0.2 =
+Plugin will now work on pages as well as posts.
+
+= 1.0.1 =
+This version simply fixes some formatting issues and includes a few screenshots.
+
+= 1.0.0 =
+This version fixes the annoying problem caused by not having the plugin installed at all.
