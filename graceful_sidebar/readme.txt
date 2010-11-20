@@ -22,7 +22,11 @@ Please see the [graceful_sidebar plugin home page](http://mlynn.org/graceful-sid
 == Frequently Asked Questions ==
 
 = Why does the plugin only display a blank title? =
-Most likely because you have another plugin in your sidebar that is changing the focus of the current post.  By the time wordpress gets to the task of displaying Graceful Sidebar's content it doesn't know what the current post or page is.== Upgrade Notice ==
+Most likely because you have another plugin in your sidebar that is changing the focus of the current post.  By the time wordpress gets to the task of displaying Graceful Sidebar's content it doesn't know what the current post or page is.
+
+= Why is it called the "Graceful" Sidebar Plugin? =
+It's named after the person (Grace) who conceived the idea for the plugin and asked for it to be developed.
+
 
 == Screenshots ==
 
